@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 header {
-  width:200px;
+  width:200px !important;
 }
 
 section {
-  width:570px;
+  width:570px !important;
 }
