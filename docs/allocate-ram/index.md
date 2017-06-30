@@ -20,6 +20,8 @@ Open the launcher Options window and modify the 'Maximum memory' value.
 There are 1024 Megabytes in 1 Gigabyte, so to allocate 2 Gigabytes of ram, enter a value of 2048.
 
 <video src="launcher-jvm-args.mp4" width="560" height="350" controls preload></video>
+<br>
+<br>
 
 ##### Regarding the other settings:
 - 'Minimum memory' - this should never be higher than the 'Maximum memory' value. 
