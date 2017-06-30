@@ -12,16 +12,14 @@ Follow the steps taken in the video to open the launch options for your modpack 
 Under 'JVM Args' modify the `-Xmx#G` value, changing the `#` to the number of Gigabytes you want to assign.
 This will become the maximum amount of ram that the game can use.
 
-<video src="mojang-jvm-args.mp4" width="560" height="350" controls preload></video>
+<video src="mojang-jvm-args.mp4" width="560" height="350" controls preload></video>&nbsp;
 
 #### Modpack Launcher
 Open the launcher Options window and modify the 'Maximum memory' value.  
 **Note - this value is in Megabytes, not Gigabytes.**  
 There are 1024 Megabytes in 1 Gigabyte, so to allocate 2 Gigabytes of ram, enter a value of 2048.
 
-<video src="launcher-jvm-args.mp4" width="560" height="350" controls preload></video>
-<br>
-<br>
+<video src="launcher-jvm-args.mp4" width="560" height="350" controls preload></video>&nbsp;
 
 ##### Regarding the other settings:
 - 'Minimum memory' - this should never be higher than the 'Maximum memory' value. 
