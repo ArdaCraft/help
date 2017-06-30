@@ -16,21 +16,11 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <a href="http://ardacraft.github.io/help">Home</a>
-        <br>
-        <a href="http://ardacraft.github.io/help/docs/finding-logs">Finding Logs & Reports</a>
-        <br>
-        <a href="http://ardacraft.github.io/help/docs/allocate-ram">Allocating RAM</a>
-        <br>
-        <a href="http://ardacraft.github.io/help/docs/install-java">Installing 64bit Java</a>
-        <br>
-        <a href="http://ardacraft.github.io/help/docs/uninstall-java">Uninstalling Old Java</a>
-        <br>
-
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+        
+        {% for p in site.html_pages %}
+            <a href="{{ p.id }}">{{ p.title }}</a>
+            <br>
+        {% endfor %}
 
         {% if site.show_downloads %}
           <ul>
