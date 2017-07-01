@@ -1,4 +1,4 @@
-## Allocating More RAM
+## Allocating RAM
 Modded Minecraft often needs to use more ram than Vanilla does to ensure it runs smoothly.  
 If you're having performance issues, or your game crashes with an `OutOfMemoryException`, then you should try allocate more ram in your launcher settings.
 
