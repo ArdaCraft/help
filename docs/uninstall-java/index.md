@@ -1,4 +1,4 @@
-## Uninstall Old Java Versions
+## Uninstalling Old Java Versions
 If you have 32bit Java installed, you may need to uninstall it before installing a 64bit version
 
 #### Mac OS
