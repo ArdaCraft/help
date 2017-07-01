@@ -1,4 +1,4 @@
-## How to Find Your Logs and Crash-Reports
+## Finding Logs & Crash-Reports
 
 #### Mojang Launcher
 ##### Windows
